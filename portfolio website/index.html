@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanna | AI Resume Analyzer Portfolio</title>
+  <meta name="description" content="Portfolio website featuring Python, Django, React, ML projects, internship experience, and an AI Resume Analyzer demo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Kanna portfolio home">Kannan K</a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <canvas id="heroCanvas" aria-hidden="true"></canvas>
+      <div class="hero-content">
+        <p class="eyebrow">Python • Django • React • Machine Learning</p>
+        <h1> Portfolio Website</h1>
+        <p class="hero-copy">
+          A focused IT developer passionate about building practical and scalable web applications with clean UI and strong backend logic.
+Skilled in Python, Django, React, and data-driven development with hands-on internship experience in Machine Learning and Data Science.
+Strong interest in full-stack development, problem-solving, and creating real-world projects that improve user experience and performance.
+        </p>
+        <div class="hero-actions">
+          <a class="button secondary" href="#projects">View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>Building useful software with full-stack depth and ML curiosity.</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          I am an aspiring software developer specializing in Python, Django, React, and machine learning, with a strong focus on building practical, real-world solutions. I enjoy developing full-stack web applications with reliable backend systems and clean, responsive user interfaces. I am also passionate about applying machine learning to create intelligent tools that improve decision-making and user experience. My goal is to continuously build impactful products while strengthening my skills as a job-ready developer.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading compact">
+        <p class="eyebrow">Skills</p>
+        <h2>Technical toolkit</h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <span class="skill-icon">Py</span>
+          <h3>Python</h3>
+          <p>Data handling, backend logic, automation, scripting, and ML workflows.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">Dj</span>
+          <h3>Django</h3>
+          <p>REST-ready backends, authentication, database models, and admin workflows.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">Re</span>
+          <h3>React</h3>
+          <p>Component-driven interfaces, state management, and responsive user experiences.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">ML</span>
+          <h3>Machine Learning</h3>
+          <p>Classification, NLP basics, feature extraction, model evaluation, and prediction demos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading compact">
+        <p class="eyebrow">Projects</p>
+        <h2>Interview-ready project stories</h2>
+      </div>
+      <div class="project-grid">
+            <article class="project-card">
+          <div class="project-meta">Django • React Project</div>
+          <h3>Medical Plant Chatbot</h3>
+          <p>•    Developed a chatbot using Django, React.js, and REST API.<br />
+•    Implemented CRUD operations, authentication, and database integration.<br />
+•    Deployed the frontend and backend using Vercel and Render.
+</p>
+          <a href="https://github.com/kannangojo/Medical-Plant-Api.git" target="_blank" rel="noreferrer">GitHub Repository</a>
+        </article>
+        <article class="project-card">
+          <div class="project-meta">Machine learning Project</div>
+          <h3>Loan prediction and approval</h3>
+          <p>•    Built a machine learning model using Python and Scikit-learn.<br />
+•    Performed data preprocessing, model training, and evaluation.<br />
+•    Developed a Flask web application for real-time loan prediction.
+</p>
+          <a href="https://github.com/kannangojo/Loan_Approval_Prediction.git" target="_blank" rel="noreferrer">GitHub Repository</a>
+        </article>
+    
+        <!-- <article class="project-card">
+          <div class="project-meta">Python • Data</div>
+          <h3>ML Prediction Dashboard</h3>
+          <p>Dashboard concept for uploading data, visualizing trends, and displaying model predictions in a recruiter-friendly UI.</p>
+          <a href="https://github.com/your-username/ml-prediction-dashboard" target="_blank" rel="noreferrer">GitHub Repository</a>
+        </article> -->
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="section-heading compact">
+        <p class="eyebrow">Internship Experience</p>
+        <h2>Practical workplace exposure</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span>Machine Learning Intern</span>
+          <h3>Elysium technologies</h3>
+          <p>Worked on machine learning model development, data preprocessing, and feature engineering for real-world datasets.
+Assisted in training, testing, and evaluating models to improve accuracy and performance.
+Performed data cleaning, visualization, and analysis to extract meaningful insights.
+Collaborated with the team on documentation, debugging, and end-to-end project delivery..</p>
+        </article>
+        <article class="timeline-item">
+          <span>Data Science intern</span>
+          <h3>Oracle Corporation</h3>
+          <p>Gained practical exposure to core Data Science concepts including data collection, preprocessing, exploratory data analysis, and basic machine learning workflows.
+Completed a 20-day structured online internship conducted by Oracle Corporation, focusing on real-world data handling and problem-solving techniques.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s talk about internships, projects, and roles.</h2>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button class="button primary" type="submit">Send Message</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built for interview impact with Python, Django, React, and ML project positioning.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
